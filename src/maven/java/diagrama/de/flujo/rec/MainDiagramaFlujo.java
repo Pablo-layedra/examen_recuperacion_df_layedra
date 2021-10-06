@@ -29,7 +29,11 @@ public class MainDiagramaFlujo {
 					for (int i = dimension; i >= alt; i--){
 						System.out.print(" ");
 					}
-					System.out.println("*");
+					for(int ast=1;ast<=alt; ast++){
+						
+		                System.out.print("*");
+					}
+					System.out.println();
 				}
 				
 			}else {
